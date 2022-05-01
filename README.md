@@ -1,5 +1,6 @@
 # ML-MD-SPE
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is the repository for my senior design project/thesis, titled "A Machine Leraning Approach to Study Li<sup>+</sup> Dynamics in Solid Polymer Electrolytes."
 
