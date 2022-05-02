@@ -6,6 +6,13 @@
 
 This is the repository for my senior design project and thesis, titled "A Machine Leraning Approach to Study Li<sup>+</sup> Dynamics in Solid Polymer Electrolytes." Project was advised by Dr. Dmitry Bedrov and Aditya Choudhary from the University of Utah's Materials Science and Engineering Department.
 
+## Folders
+- **data**: data that was used for the machine learning task
+- **figures**: any figures that were produced by code (code is provided in this repo)
+- **model_saves**: selected saved models for use in other notebooks
+- **tables**: summary of model scores on test dataset, used for tables in thesis
+- **thesis_figures**: any figures used in the thesis (some are repeats from figures)
+
 ## Exploratory Data Analysis
 
 As the name implies, the notebook titled `exploratory_analysis.ipnyb` goes through the exploratory analysis of the data before the supervised learning tasks are performed. The notebook covers the following:
