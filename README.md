@@ -8,7 +8,7 @@ This is the repository for my senior design project and thesis, titled "A Machin
 
 ## Exploratory Data Analysis
 
-As the name implies, the notebook titled `exploratory_analysis.ipnyb` goes through the exploratory analysis of the data before the supervised laerning tasks are performed. The notebook covers the following:
+As the name implies, the notebook titled `exploratory_analysis.ipnyb` goes through the exploratory analysis of the data before the supervised learning tasks are performed. The notebook covers the following:
 - Correlation heatmaps
 - Distribution plotting (violin plots, histograms, KDEs)
 - *K*-sample Anderson-Darling tests
