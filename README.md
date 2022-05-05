@@ -8,14 +8,14 @@ This is the repository for my senior design project and thesis, titled "A Machin
 
 ## Folders
 - **data**: data that was used for the machine learning task
-- **figures**: any figures that were produced by code (code is provided in this repo)
-- **model_saves**: selected saved models for use in other notebooks
+- **figures**: any figures that were produced by Python code
+- **model_saves**: selected saved models for use in different notebooks
 - **tables**: summary of model scores on test dataset, used for tables in thesis
 - **thesis_figures**: any figures used in the thesis (some are repeats from figures)
 
 ## Exploratory Data Analysis
 
-As the name implies, the notebook titled `exploratory_analysis.ipnyb` goes through the exploratory analysis of the data before the supervised learning tasks are performed. The notebook covers the following:
+As the name implies, the notebook titled `1_exploratory_analysis.ipnyb` goes through the exploratory analysis of the data before the supervised learning tasks are performed. The notebook covers the following:
 - Correlation heatmaps
 - Distribution plotting (violin plots, histograms, KDEs)
 - *K*-sample Anderson-Darling tests
@@ -23,7 +23,7 @@ As the name implies, the notebook titled `exploratory_analysis.ipnyb` goes throu
 
 ## Full Machine Learnign Analysis
 
-The notebook titled `full_analysis.ipynb` includes the code and explanations for the supervised learning tasks:
+The notebook titled `2_full_analysis.ipynb` includes the code and explanations for the supervised learning tasks:
 
 1. Use only structural features (coordination numbers) as features to predict Li<sup>+</sup> displacement
 2. Use structural and dynamic features (changes in coordination number over a given timestep) to predict Li<sup>+</sup> displacement
@@ -32,7 +32,7 @@ Each task has a regression and classification approach.
 
 ## Feature Importances
 
-More of an introduction to feature importances than anything else, `feature_importances.ipynb` has the code for the following:
+More of an introduction to feature importances than anything else, `3_feature_importances.ipynb` has the code for the following:
 
 - Impurity-based feature importance for tree-based models
 - Permutation importance from scikit-learn
@@ -42,4 +42,4 @@ Explanations for this notebook are sparse, since feature importance really isn't
 
 ## 3D Plotting
 
-A short and sweet notebook adapted from a Plotly example for making some volume plots for one of my figures.
+`4_volume_plots.ipynb` is a short and sweet notebook adapted from a Plotly example. It was used to make some volume plots for one of the thesis figures.
